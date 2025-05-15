@@ -1,3 +1,5 @@
+@use '../variables';
+
 .button {
     padding: 16px;
     font-size: 18px;
@@ -7,7 +9,7 @@
 
     &--primary {
         color: #fff;
-        background-color: #4F2AC3;
+        background-color: variables.$purple;
         text-decoration: none;
     }
 
